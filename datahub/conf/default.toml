@@ -32,7 +32,7 @@ web_component_embedder_url = "/datahub/wc-embedder.html"
 # This optional parameter defines the languages that will be provided in a dropdown for the user to translate the UI.
 # Available languages are listed here: (https://github.com/geonetwork/geonetwork-ui/blob/main/libs/util/i18n/src/lib/i18n.constants.ts).
 # More information about the translation can be found in the docs (https://geonetwork.github.io/geonetwork-ui/main/docs/reference/i18n.html)
-# languages = ['en', 'fr', 'de']
+languages = ['pt', 'en', 'fr', 'es']
 
 ### VISUAL THEME
 
@@ -154,7 +154,7 @@ max_zoom = 14
 external_viewer_url_template = '/mapstore/#/?actions=[{"type":"CATALOG:ADD_LAYERS_FROM_CATALOGS","layers":["${layer_name}"],"sources":[{"url":"${service_url}","type":"${service_type}"}]}]'
 
 # Optional; if true, opens external viewer in new tab (default false)
-external_viewer_open_new_tab = true
+external_viewer_open_new_tab = false
 
 # Optional; if true, the default basemap will not be added to the map.
 # Use [[map_layer]] sections to define your own custom layers (see below)
