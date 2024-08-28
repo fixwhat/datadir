@@ -41,7 +41,7 @@ languages = ['pt', 'en', 'fr', 'es']
 #  - for font families: https://developer.mozilla.org/en-US/docs/Web/CSS/font-family
 #  - for background: https://developer.mozilla.org/en-US/docs/Web/CSS/background
 [theme]
-primary_color = "black"
+primary_color = "#000"
 secondary_color = "#1b1f3b"
 main_color = "#495057" # All-purpose text color
 background_color = "#fdfbff"
@@ -49,8 +49,8 @@ background_color = "#fdfbff"
 # These optional parameters indicate which background should be used for the main header and the text color used
 # on top of the background. The color should be chosen to contrast well with the background (defaults to white).
 # Note: The search header does not use the header_foreground_color as it allows futher customisation via HTML.
-header_background = "var(--color-red-900)" # "center /cover url('assets/img/header_bg.webp')" or 
-# header_foreground_color = 'white'
+header_background = "#fdfbff" # "center /cover url('assets/img/header_bg.webp')" or 
+header_foreground_color = 'red'
 
 # This optional parameter allows to override the fallback image that should be used for thumbnails,
 # if the metadata record has no thumbnail image url or it is broken.
@@ -140,6 +140,7 @@ max_zoom = 14
 # Optional; will limit the possibility to pan or zoom out outside of an extent
 # Expressed in the map view projection (EPSG:3857)
 # max_extent = [-418263.418776, 5251529.591305, 961272.067714, 6706890.609855]
+max_extent = [-6142886, -3143168,-4685325,-2035221]
 
 # Optional; URL template enabling to open map layers in an external viewer; if set, displays a button next to the map's layer drop down
 # The template must include the following placeholders, which allow the datahub to inject the correct values when adding a layer to a viewer:
