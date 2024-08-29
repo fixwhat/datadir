@@ -4,7 +4,7 @@
 # so you need to add it with chmod and commit/push it
 
 DATAHUB_DIR=${1:-/usr/share/nginx/html/datahub}
-SNIPPET="<script src='${headerScript}'></script><geor-header active-app='datahub' stylesheet='${georchestraStylesheet}' ></geor-header>"
+SNIPPET="<script src='${HEADER_SCRIPT}'></script><geor-header active-app='datahub' stylesheet='${georchestraStylesheet}' ></geor-header>"
 https://${domainName}/import/${job.id}
 if grep -q "${SNIPPET}" "${DATAHUB_DIR}/index.html"; then
   echo "[INFO] geOrchestra: header already present."
