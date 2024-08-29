@@ -202,6 +202,9 @@ external_viewer_open_new_tab = false
 #     Welcome to <span class="text-primary">Organization</span>'s<br>
 #     wonderful <span style="font-size: 1.2em;">data catalogue</span>
 #     """
+[translations.pt]
+datahub.header.title.html = '<div class="text-white">Conheça todos os dados <br>da nossa plataforma</div>'
+
 [translations.en]
 datahub.header.title.html = '<div class="text-white">Discover all the data <br> of your platform</div>'
 
