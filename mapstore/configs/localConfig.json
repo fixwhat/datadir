@@ -179,8 +179,8 @@
         "locales": {
           "supportedLocales": {
              "pt": {
-              "code": "pt-BR",
-              "description": "Portugues Brasil"
+              "code": "pt-PT",
+              "description": "Portugues"
             },
             "en": {
               "code": "en-US",
