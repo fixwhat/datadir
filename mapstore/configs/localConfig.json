@@ -129,82 +129,15 @@
               "local": {
                 "url": "/geonetwork/srv/fre/csw",
                 "type": "csw",
-                "title": "Catalogue de données de la plateforme",
+                "title": "Catálogo de dados da plataforma",
                 "autoload": true
               },
               "localgs": {
                 "url": "/geoserver/ows",
                 "type": "wms",
-                "title": "Service de données de la plateforme",
+                "title": "Serviço de dados da plataforma",
                 "autoload": true
               },
-              "gpfrasterwms": {
-                "url": "https://data.geopf.fr/wms-r/wms",
-                "type": "wms",
-                "title": "Géoplateforme RASTER",
-                "autoload": true
-              },
-              "gpfvectorwms": {
-                "url": "https://data.geopf.fr/wms-v/wms",
-                "type": "wms",
-                "title": "Géoplateforme VECTOR",
-                "autoload": true
-              },
-              "gpfwfs": {
-                "url": "https://data.geopf.fr/wfs/ows",
-                "type": "wfs",
-                "title": "Géoplateforme WFS",
-                "autoload": true
-              },
-              "gpfwmts": {
-                "url": "https://data.geopf.fr/wmts",
-                "type": "wmts",
-                "title": "Géoplateforme WMTS",
-                "autoload": true
-              },
-              "gpftms": {
-                "url": "https://data.geopf.fr/tms/1.0.0/",
-                "type": "tms",
-                "provider":"tms",
-                "title": "Géoplateforme TMS",
-                "autoload": true
-              },
-              "gpfcsw": {
-                "url": "https://data.geopf.fr/csw",
-                "type": "csw",
-                "title": "Géoplateforme CSW",
-                "autoload": true
-              },
-              "sandre": {
-                "url": "https://www.sandre.eaufrance.fr/atlas/srv/fre/csw",
-                "type": "csw",
-                "title": "Référentiels de l'Eau en France (Sandre)",
-                "autoload": true
-              },
-              "craig": {
-                "url": "https://ids.craig.fr/geocat/srv/fre/csw",
-                "type": "csw",
-                "title": "Région Auvergne-Rhône-Alpes",
-                "autoload": true
-              },
-              "geobretagne": {
-                "url": "https://geobretagne.fr/geonetwork/srv/fre/csw",
-                "type": "csw",
-                "title": "Région Bretagne",
-                "autoload": true
-              },
-              "geo2france": {
-                "url": "https://www.geo2france.fr/geonetwork/srv/fre/csw",
-                "type": "csw",
-                "title": "Région Hauts-de-France",
-                "autoload": true
-              },
-              "datagrandest": {
-                "url": "https://www.datagrandest.fr/geonetwork/srv/fre/csw",
-                "type": "csw",
-                "title": "Région Grand Est",
-                "autoload": true
-              }
             },
             "staticServices": {
               "default_map_backgrounds": {
@@ -245,6 +178,10 @@
         },
         "locales": {
           "supportedLocales": {
+             "pt": {
+              "code": "pt-BR",
+              "description": "Portugues Brasil"
+            },
             "en": {
               "code": "en-US",
               "description": "English"
