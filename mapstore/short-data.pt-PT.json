@@ -1,0 +1,38 @@
+{
+    "locale": "pt-PT",
+    "messages": {
+        "georchestra": {
+            "pageNotAllowed": "Acesso negado"
+        },
+        "catalog": {
+            "title": "Adicionar dado",
+            "tooltip": "Adicionar dado ao mapa"
+        },
+        "mapCatalog": {
+            "title": "Aplicação Temática",
+            "tooltip": "Carregar uma aplicação com funcionalidades e modelos de mapa.",
+            "filterPlaceholder": "Procurar aplicações...",
+            "deleteConfirmContent": "Tem certeza que você deseja excluir a aplicação \"{mapName}\"?",
+            "tooltips": {
+                "edit": "Editar propriedades",
+                "delete": "Deletar recurso",
+                "share": "Compartilhar"
+            },
+            "deletedMap": {
+                "title": "Deletar aplicação",
+                "message": "A aplicação foi excluída com sucessso."
+            },
+            "updatedMap": {
+                "title": "Aplicação salva",
+                "message": "A aplicação foi salva com sucessso."
+            },
+            "deleteError": "Erro inesperado ao excluir a aplicação",
+            "updateError": "Erro inesperado ao salvar a aplicação"
+        },
+        "version": {
+            "label": "Versão",
+            "repo": "MapStore2-geOrchestra",
+            "submodule": "MapStore2"
+        }
+    }
+}
