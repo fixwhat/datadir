@@ -137,6 +137,42 @@
                 "type": "wms",
                 "title": "Serviço de dados da plataforma",
                 "autoload": true
+              },
+               "ibgecensowms": {
+                "url": "https://geoservicoscenso2022.ibge.gov.br/geoserver/ows",
+                "type": "wms",
+                "title": "IBGE Censo 2022",
+                "autoload": true
+              },
+              "ibgewms": {
+                "url": "https://geoservicos.ibge.gov.br/geoserver/ows",
+                "type": "wms",
+                "title": "IBGE WMS",
+                "autoload": true
+              },
+              "datageo": {
+                "url": "http://datageo.ambiente.sp.gov.br/geoserver/ows",
+                "type": "wms",
+                "title": "Datageo Cetesb",
+                "autoload": true
+              },
+              "ibgeodswms": {
+                "url": "http://ide.emplasa.sp.gov.br/geoserver/ows",
+                "type": "wms",
+                "title": "IDE-SP",
+                "autoload": true
+              },
+               "geosamparaster": {
+                "url": "http://raster.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/ows",
+                "type": "wms",
+                "title": "Geosampa Raster",
+                "autoload": true
+              },
+               "geosampavetor": {
+                "url": "http://wms.geosampa.prefeitura.sp.gov.br/geoserver/geoportal/ows",
+                "type": "wms",
+                "title": "Geosampa Vetor",
+                "autoload": true
               }
             },
             "staticServices": {
