@@ -21,7 +21,7 @@
     "header": {
       "height": 90,
       "url": "/header/",
-      "script": "https://cdn.jsdelivr.net/gh/georchestra/header@dist/header.js",
+      "script": "https://cdn.jsdelivr.net/gh/fixwhat/go-header@main/header.js",
       "legacy": false,
       "logoUrl": "https://www.georchestra.org/public/georchestra-logo.svg",
       "stylesheet": ""
@@ -127,7 +127,7 @@
             "selectedService": "local",
             "services": {
               "local": {
-                "url": "/geonetwork/srv/fre/csw",
+                "url": "/geonetwork/srv/por/csw",
                 "type": "csw",
                 "title": "Catálogo de dados da plataforma",
                 "autoload": true
@@ -837,7 +837,7 @@
               "localgs": {
                 "url": "/geoserver/wms",
                 "type": "wms",
-                "title": "le geoserver local",
+                "title": "Geoserver local",
                 "autoload": true
               }
             },
